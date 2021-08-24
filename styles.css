@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    background-image: linear-gradient(to left, brown, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    margin: -50px 0 50px;
+}
+
+.checker {
+    width: 17.5rem;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+input[type="text"] {
+    border: 2px solid black;
+    padding: 8px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+}
+
+p {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    margin: 25px;
+    border: none;
+    background-color: white;
+    border-radius: 7px;
+    font-weight: bolder;
+    transition: all 0.5s linear;
+}
+
+input[type="button"]:hover {
+    background-image: linear-gradient(to right, brown, yellow);
+    color: white;
+    /* padding: 15px 25px; */
+    font-size: 1rem;
+}

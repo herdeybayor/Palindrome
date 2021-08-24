@@ -2,6 +2,10 @@ $("input[type='button']").on("click", ()=>{
     palindrome(input);
 })
 
+$("input[type='text']").on('keypress', function (e) {
+    console.log(e);
+});
+
 var input;
 
 function palindrome(input) {

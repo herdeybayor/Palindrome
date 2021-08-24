@@ -3,7 +3,9 @@ $("input[type='button']").on("click", ()=>{
 })
 
 $("input[type='text']").on('keypress', function (e) {
-    console.log(e);
+    if (e.key === "Enter"){
+        palindrome(input);
+    }
 });
 
 var input;
